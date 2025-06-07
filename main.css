@@ -1,0 +1,90 @@
+body{
+    align-items: center;
+    margin-bottom: 5%;
+    width: 102vw;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    transform: all 2s;
+}
+.light{
+    background-image: linear-gradient(to right bottom, #009cb3, #00afae, #00bf91, #34cb60, #90d100);
+}
+.dark{
+    background-color: black;
+}
+.form{
+    background-color: rgb(255, 245, 219);
+    align-items: center;
+    width: 30vw;
+    height: 80vh;
+    margin: 10vh auto 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    font-size: 40px;
+    padding-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2vh;
+}
+.foro{
+    margin: 5% 10%;
+    width: 20vw;
+    height: 5vh;
+}
+input{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.zapisi{
+    background-color: rgb(255, 245, 219);
+    align-items: center;
+    width: 70vw;
+    height: auto;
+    margin: 10vh auto 7vh auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 5%;
+    display: none;
+}
+p{
+    font-size: 20px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.zapis{
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+    margin: 1vh 1vw;
+}
+.deletebtn{
+    width: 50%;
+    height: 20%;
+}
+.qwerty{
+
+    margin-top: 1%;
+}
